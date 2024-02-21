@@ -1,0 +1,129 @@
+{
+    "$schema": "./schemas/preguntas-schema.json",
+    "code":"AZ-900",
+    "questions":[
+        {
+            "type":0,
+            "question": "Elije la verdadera",
+            "answers": [
+                { "text": "Soy la tercera", "correct":false},
+                { "text": "Soy la segunda", "correct":true},
+                { "text": "Soy la primera", "correct":false},
+                { "text": "Soy la tercera", "correct":false}
+            ]
+        },
+        {
+            "type": 1,
+            "question": "Elije la verdadera",
+            "answers": [
+                { "text": "Soy la cuarta", "correct":false},
+                { "text": "Soy la segunda", "correct":true},
+                { "text": "Soy la tercera", "correct":true},
+                { "text": "Soy la primera", "correct":false}
+            ]
+        },
+        {
+            "type": 2,
+            "question": "¿Cuales dos son lenguajes de programación?",
+            "answers": [
+                { "text": "Python", "correct":true},
+                { "text": "Frances", "correct":false},
+                { "text": "Php", "correct":true},
+                { "text": "Salmón", "correct":false}
+            ]
+        },
+        {
+            "type": 3,
+            "question": "La computación en la nube es mejor por que puedes hacer muchas cosas en ",
+            "answers": [
+                { "text": "la nube", "correct":true},
+                { "text": "el sol", "correct":false},
+                { "text": "el mar", "correct":false},
+                { "text": "la montaña", "correct":false}
+            ]
+        },
+        {
+            "type": 4,
+            "question": "Elije la verdadera",
+            "answers": [
+                { 
+                    "initial": "Virtual Network peering", 
+                    "text": "Extends on-premise networks to the Microsoft cloud via private connection.",
+                    "correct": "Express Route" 
+                },
+                {
+                    "initial": "Express Route",
+                    "text": "Combines two or more Azure virtual networks into a single virtual network",
+                    "correct": "Virtual Network peering"
+                },
+                {
+                    "initial": "VPN Gateway",
+                    "text": "Provides an encrypted connection from on-premise networks to Azure via a public network.",
+                    "correct": "VPN Gateway"
+                }
+            ]
+        },
+        {
+            "type": 5,
+            "question": "En que orden de mayor a menor responsabilidad tiene el usuario.",
+            "answers": [
+                { 
+                    "initial": "platform as a service (PaaS)", 
+                    "text": "",
+                    "correct": "infraestructure as a service (IaaS)" 
+                },
+                {
+                    "initial": "software as a service (SaaS)",
+                    "text": "",
+                    "correct": "platform as a service (PaaS)"
+                },
+                {
+                    "initial": "infraestructure as a service (IaaS)",
+                    "text": "",
+                    "correct": "software as a service (SaaS)"
+                }
+            ]
+        },
+        {
+            "type": 6,
+            "question": "You plan to create an Azure virtual machine.\nYou need to identify which storage service must be used to store the unmanaged data disks of the virtual machine.\nWhat should you identify? To answer, select the appropriate service in the answer area",
+            "image": "images/109.png",
+            "image_w": 724,
+            "image_h": 288,
+            "answers": [
+                { 
+                    "name":"containers",
+                    "x":11,
+                    "y":13,
+                    "w":342,
+                    "h":125,
+                    "correct": true
+                },
+                { 
+                    "name":"file_shares",
+                    "x":368,
+                    "y":13,
+                    "w":343,
+                    "h":127,
+                    "correct": false
+                },
+                { 
+                    "name":"tables",
+                    "x":9,
+                    "y":155,
+                    "w":344,
+                    "h":123,
+                    "correct": false
+                },
+                { 
+                    "name":"queues",
+                    "x":366,
+                    "y":155,
+                    "w":344,
+                    "h":124,
+                    "correct": false
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+code ;description
+   0 ;"radio button - Única selección"
+   1 ;"radio button - Sí/No múltiple"
+   2 ;"checkboxes - Múltiple selección"
+   3 ;"Dropdown menu - Única selección"
+   4 ;"Drag - Arrastrar y soltar respuesta"
+   5 ;"Drag - Ordenar respuesta"
+   6 ;"Imagen - Seleccionar elemento en imagen"
